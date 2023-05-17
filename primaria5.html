@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos de Primaria - 5to Año</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/kindeMaterias.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="resources/colegio_logo.png" alt="" width="50" height="50">
+            Colegio F-I
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Niveles Academicos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Kinder.html">INICIAL</a></li>
+                        <li><a class="dropdown-item" href="Primaria.html">PRIMARIA</a></li>
+                        <li><a class="dropdown-item" href="secu.html">SECUNDARIA</a></li>
+                        <li><a class="dropdown-item" href="prepa.html">BACHILLERATO</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#historia">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactanos">Contacto</a>
+                </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" type="button" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Entrar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+    <!-- Modal -->
+    <div class="modal fade custom-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesion</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <div id="emailHelp" class="form-text">!Nunca compartiremos tu informacion con nadie.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlSelect1" class="form-label">Eres estudiante o Maestro?</label>
+                            <select class="form-select" id="exampleFormControlSelect1">
+                                <option selected disabled>Selecciona uno</option>
+                                <option value="student">Estudiante</option>
+                                <option value="teacher">Maestro</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Iniciar sesion</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Cursos de Primaria - 5to Año</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Matemáticas</h2>
+            <p> se sigue avanzando en el estudio de las operaciones matemáticas, 
+                la geometría, las medidas, la resolución de problemas y la estadística, 
+                y se introducen temas como las proporciones, los porcentajes y las razones.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Historia</h2>
+            <p> se estudian los eventos importantes de la historia de México desde la 
+                Independencia hasta la actualidad, y se introduce el estudio de la historia universal.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Geografía</h2>
+            <p>se profundiza en el estudio de los elementos geográficos de México y del 
+                mundo, como la cultura, la economía, la geografía política y la geografía 
+                física, y se estudian las regiones naturales de México.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Educacion Fisica</h2>
+            <p>sse sigue fomentando el desarrollo de habilidades físicas y se fomenta la 
+                participación en actividades deportivas y recreativas, y se introducen deportes de equipo.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Español</h2>
+            <p>se profundiza en el estudio de la lectura, la escritura, la comprensión y 
+                la expresión oral, y se introduce el estudio de la literatura clásica y contemporánea.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Formación Cívica y Ética</h2>
+            <p>se profundiza en el estudio de los valores, la convivencia, la responsabilidad 
+                social, el respeto y la protección de los derechos humanos, y se fomenta la 
+                participación en acciones cívicas y de solidaridad con los demás.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Ciencias Naturales</h2>
+            <p>se profundiza en el estudio de los seres vivos y su entorno, se estudia el 
+                ciclo del agua, el cambio climático y la biodiversidad.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Informatica</h2>
+            <p>se pueden enseñar habilidades básicas de uso de herramientas tecnológicas, 
+                como procesadores de texto, hojas de cálculo, navegadores web y programas 
+                de correo electrónico, así como introducir a los estudiantes al mundo de la programación y la lógica computacional.</p>
+            <button>Ver detalles</button>
+        </div>
+        <div class="card">
+            <h2>Ingles</h2>
+            <p>se enfoca en el desarrollo de habilidades de comunicación oral y escrita en 
+                el idioma, a través de la práctica de actividades de escucha, habla, lectura 
+                y escritura. Además, se pueden abordar temas relacionados con la gramática, 
+                vocabulario, pronunciación y cultura anglosajona.</p>
+            <button>Ver detalles</button>
+        </div>
+        
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br>
+
+
+    <!-- Pie de pagina -->
+    <footer class="bg-dark text-light py-3" id="contactanos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contacto</h5>
+                    <p>Av. 123, Ciudad, Estado</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: info@colegio.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Síguenos en redes sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/animation.js"></script>
+
+</body>
+</html>

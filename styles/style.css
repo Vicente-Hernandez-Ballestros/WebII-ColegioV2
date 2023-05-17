@@ -1,0 +1,172 @@
+body {
+    padding-top: 70px;
+    /* Ajusta el valor según el tamaño de tu navbar */
+}
+
+
+/* Estilos para la barra de navegación ------------------------------------------------*/
+.navbar {
+    background-color: #f6f6f6 !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3) !;
+}
+
+.navbar-brand {
+    color: #484848 !important;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.navbar .btn {
+    background-color: #0072C6 !important;
+    color: #FFFFFF;
+    width: 100px;
+    margin: 5px;
+}
+
+.navbar .btn:hover{
+    transform: scale(105%);
+    transition: transform 0.1s ease-in-out;
+}
+
+
+
+.navbar-nav {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #484848 !important;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    background-color: #0072C6;
+    color: whitesmoke !important;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.modal{
+    z-index: 10000;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*estilo para la bienvenida y las tres imagenes --------------------------------------------------------------------*/
+
+.welcome-section {
+    background-color: #f2f2f2;
+    padding: 80px;
+}
+
+.welcome-title {
+    color: #0072C6;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.welcome-subtitle {
+    color: #0072C6;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.welcome-images img {
+    width: 5000px;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+img:hover {
+    transform: scale(105%);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+/*Contenido de l aseccion de la historia ------------------------------------------------------*/
+
+#historia {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+}
+
+#historia img {
+    border-radius: 10%;
+}
+
+#historia h2 {
+    color: #0072C6;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+#historia p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+#historia img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    #historia .row {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+    }
+
+    #historia .col-md-6 {
+        flex-basis: 48%;
+    }
+}
+
+/*animacion para la carga principal de l apagina----------------------------------------------------------------*/
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 9998;
+    opacity: 1;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#overlay img, h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

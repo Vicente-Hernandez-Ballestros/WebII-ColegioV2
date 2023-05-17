@@ -1,0 +1,55 @@
+/* Kinder */
+#nose {
+    text-align: center;
+    background-color: #EEEAEA;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+.col:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.col h5 {
+    text-align: center;
+}
+
+.col button {
+    background-color: #ffcc00;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.card button:hover {
+    background-color: #e6b800;
+}
+
+
+#dos {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#botonPro {
+    padding-top: 10.5rem;
+    text-align: center;
+
+}
+
+#nombreIni {
+    text-align: left;
+}

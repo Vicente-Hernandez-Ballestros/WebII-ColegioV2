@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/kinder.css">
+    <link rel="stylesheet" href="styles/estilosCursos.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="resources/colegio_logo.png" alt="" width="50" height="50">
+                Colegio F-I
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Niveles Academicos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Kinder.html">INICIAL</a></li>
+                            <li><a class="dropdown-item" href="Primaria.html">PRIMARIA</a></li>
+                            <li><a class="dropdown-item" href="secu.html">SECUNDARIA</a></li>
+                            <li><a class="dropdown-item" href="prepa.html">BACHILLERATO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#historia">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactanos">Contacto</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade custom-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesion</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <div id="emailHelp" class="form-text">!Nunca compartiremos tu informacion con nadie.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlSelect1" class="form-label">Eres estudiante o Maestro?</label>
+                            <select class="form-select" id="exampleFormControlSelect1">
+                                <option selected disabled>Selecciona uno</option>
+                                <option value="student">Estudiante</option>
+                                <option value="teacher">Maestro</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Iniciar sesion</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- KINDER-->
+    <div class="container pt-5">
+        <h1 id="nombreIni">KINDER</h1>
+        <h2 id="nombreIni">El colegio brinda este nivel educativo. Tambien
+            cuenta con una forma de trabajo en la cual cada niño construye su
+            propio aprendizaje en su interacción con los demás y en la exploración
+            de su entorno. Respetamos y valoramos a cada niño según sus ritmos de
+            aprendizaje, dejándolos que crezcan de manera responsable y autónoma.</h2>
+    </div>
+    <div class="container pt-5" id="kinder">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 ">
+                    <img src="resources/kinder1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">1er año</h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="kinder1.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="resources/kinder2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">2do año</h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="kinder2.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="resources/kinder.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">3er año</h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="kinder3.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br>
+    <!-- FOOTER -->
+    <!-- Pie de pagina -->
+    <footer class="bg-dark text-light py-3" id="contactanos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contacto</h5>
+                    <p>Av. 123, Ciudad, Estado</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: info@colegio.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Síguenos en redes sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+
+</html>

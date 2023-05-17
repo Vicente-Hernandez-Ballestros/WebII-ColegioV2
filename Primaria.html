@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primaria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/kinder.css">
+    <link rel="stylesheet" href="styles/estilosCursos.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="resources/colegio_logo.png" alt="" width="50" height="50">
+                Colegio F-I
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Niveles Academicos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Kinder.html">INICIAL</a></li>
+                            <li><a class="dropdown-item" href="#">PRIMARIA</a></li>
+                            <li><a class="dropdown-item" href="#">SECUNDARIA</a></li>
+                            <li><a class="dropdown-item" href="#">BACHILLERATO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#historia">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactanos">Contacto</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade custom-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesion</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <div id="emailHelp" class="form-text">!Nunca compartiremos tu informacion con nadie.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlSelect1" class="form-label">Eres estudiante o Maestro?</label>
+                            <select class="form-select" id="exampleFormControlSelect1">
+                                <option selected disabled>Selecciona uno</option>
+                                <option value="student">Estudiante</option>
+                                <option value="teacher">Maestro</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Iniciar sesion</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- PRIMARIA-->
+    <div class="container pt-5">
+        <h1 id="nombreIni">PRIMARIA</h1>
+        <h2 id="nombreIni">En la educación primaria de nuestro colegio buscamos que nuestros
+            estudiantes sean los actores de su propio aprendizaje. Adquieren
+            el conocimiento a través de la interacción social dentro y fuera
+            del aula siendo parte de una comunidad</h2>
+    </div>
+    <div class="container pt-5" id="primaria">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/prim1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">1er año</h5>
+                        <p class="card-text">Este curso tiene como objetivo desarrollar las habilidades de lectura y
+                            escritura
+                            de los estudiantes, así como mejorar su capacidad de comunicación oral.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="primaria1.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">2do año</h5>
+                        <p class="card-text">Este curso tiene como objetivo enseñar a los estudiantes conceptos
+                            matemáticos
+                            básicos, como sumas, restas, multiplicaciones y divisiones.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="primaria2.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">3er año</h5>
+                        <p class="card-text">Este curso tiene como objetivo enseñar a los estudiantes sobre la
+                            naturaleza y los
+                            fenómenos naturales que los rodean, como el clima, los animales y las plantas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="primaria3.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/prim4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">4to año</h5>
+                        <p class="card-text">Este curso tiene como objetivo enseñar a los estudiantes sobre la sociedad
+                            y la cultura,
+                            así como las relaciones entre las personas y los grupos sociales.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="primaria4.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">5to año</h5>
+                        <p class="card-text">Este curso tiene como objetivo desarrollar el pensamiento lógico y la
+                            capacidad de
+                            resolución de problemas de los estudiantes.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="primaria5.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">6to año</h5>
+                        <p class="card-text">Este curso tiene como objetivo preparar a los estudiantes para la educación
+                            secundaria,
+                            desarrollando habilidades como la investigación, la argumentación y enseñanza de valores
+                            para prepararlos a el siguiente grado de estudios</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="primaria6.html"><button>Ver Materias</button></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br>
+    
+    
+    <!-- Pie de pagina -->
+    <footer class="bg-dark text-light py-3" id="contactanos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contacto</h5>
+                    <p>Av. 123, Ciudad, Estado</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: info@colegio.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Síguenos en redes sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+
+</html>
